@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/41cfa3e6ee.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div>
+      <form>
+        <label for="username">Username</label>
+        <input
+          type="text"
+          name="user_name"
+          id="username"
+          value=""
+          placeholder="username"
+        />
+        <label for="password">password</label>
+        <input
+          id="password"
+          name="password"
+          type="password"
+          value=""
+          placeholder="password"
+        />
+        <label>Age</label>
+        <input type="number" />
+
+        <label>Birth Date</label>
+        <input type="date" />
+
+        <label>Send me Email</label>
+        <input type="checkbox" />
+
+        <input type="radio" value="pineapple pizza" />
+        <label for="pineapple pizza">pineapple pizza</label>
+
+        <input type="submit" />
+        <button type="submit">submit</button>
+      </form>
+
+      <select name="school">
+        <option hidden disabled selected value>-- select an option --</option>
+        <option value="Devpipeline">Devpipeline</option>
+        <option value="Basin Dinner">Basin Dinner</option>
+        <option value="Farmer">Farmer</option>
+      </select>
+    </div>
+    <div>
+      <textarea rows="20" cols="40"></textarea>
+      <a href="http://127.0.0.1:5500/home.html" target="_blank">About</a>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3035.988947290676!2d-109.5457721!3d40.4533816!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1684182730983!5m2!1sen!2sus"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <video src="pizza.webm" controls></video>
+      <i class="fa-solid fa-hippo"></i>
+    </div>
+  </body>
+</html>
+
+user = { username: "Snowman", password: "password", school: "DevPipeline" }
